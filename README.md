@@ -41,4 +41,11 @@ The **View** is implemented using **Jetpack Compose**, and the application uses 
 During the completion of the exercice, one of the biggest challenges I faced was applying TDD. It was my first time practicing this methodology, and I had to adapt to writing tests before developing the features.
 Despite this, I found the exercice to be very rewarding and interesting, especially for a junior dev like myself. It gave me a better understanding of the importance of testing in development cycle.
 
+While I followed a TDD approach for most of the codebase, I implemented tests for the ViewModel at a later stage.
+Initially, my viewModel was designed to only return the state of the application. However, during the development process, I realized that the ViewModel would also need to handle some logical operations. Due to this significant change, I had to readapt my approach to testing.
+
+
+
+
+
 
